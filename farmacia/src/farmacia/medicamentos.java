@@ -9,6 +9,6 @@ public class medicamentos {
 
 	public static void main(String[] args) {
 	
-		System.out.println("Meu Primeiro Programa em Java");
+		System.out.println("Meu Projeto de Farmacia");
 	}
 }
