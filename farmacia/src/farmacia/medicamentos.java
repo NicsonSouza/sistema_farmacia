@@ -6,9 +6,43 @@ public class medicamentos {
 	private String nome, lote, tipo;
 	private int data_validade, qnt;
 	private float qnt_in;
-
-	public static void main(String[] args) {
 	
-		System.out.println("Meu Projeto de Farmacia");
+	
+	public String getNome() {
+		return nome;
 	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getLote() {
+		return lote;
+	}
+	public void setLote(String lote) {
+		this.lote = lote;
+	}
+	public String getTipo() {
+		return tipo;
+	}
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+	public int getData_validade() {
+		return data_validade;
+	}
+	public void setData_validade(int data_validade) {
+		this.data_validade = data_validade;
+	}
+	public int getQnt() {
+		return qnt;
+	}
+	public void setQnt(int qnt) {
+		this.qnt = qnt;
+	}
+	public float getQnt_in() {
+		return qnt_in;
+	}
+	public void setQnt_in(float qnt_in) {
+		this.qnt_in = qnt_in;
+	}
+
 }
