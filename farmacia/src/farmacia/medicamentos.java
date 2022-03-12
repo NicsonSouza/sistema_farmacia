@@ -4,7 +4,7 @@ import java.sql.Date;
 
 public class medicamentos {
 	
-	//variaveis
+	//variáveis
 	private String nome, lote, tipo;
 	private Date data_validade;
 	private int qnt;
